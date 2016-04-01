@@ -1,2 +1,4 @@
 # hello-angularjs
-https://angular.io
+
+5 MIN QUICKSTART (Angular 2 for TypeScript)
+https://angular.io/docs/ts/latest/quickstart.html

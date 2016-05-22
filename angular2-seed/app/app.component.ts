@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-declare var $:any;
+//import * as $ from  'jquery';
+declare var $:any; // Wie importiere ich jquery ordentlich? (SystemJS)
 
 @Component({
   selector: 'my-app',
@@ -25,6 +26,7 @@ export class AppComponent implements OnInit {
 
     removeAlert(index:number) {
         this.alerts.splice(index, 1);
+        $('#myModal').modal();
     }
 
     saveModal() {
